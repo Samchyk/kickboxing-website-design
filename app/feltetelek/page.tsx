@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 
 export default function TermsPage() {
   return (
-    <LegalLayout index="02" title="Felhasználási feltételek" updated="2026. január 1.">
+    <LegalLayout index="02" title="Felhasználási feltételek">
       <LegalBlock
         heading="A szolgáltatás célja"
         paragraphs={[

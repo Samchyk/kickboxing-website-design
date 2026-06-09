@@ -21,7 +21,7 @@ export function HomeHero() {
   return (
     <section
       ref={ref}
-      className="grain relative flex min-h-[100svh] items-end overflow-hidden"
+      className="grain relative flex min-h-[100svh] items-center overflow-hidden md:items-end"
     >
       {/* parallax background image */}
       <motion.div

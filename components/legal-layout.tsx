@@ -4,12 +4,10 @@ import { Reveal } from '@/components/reveal'
 export function LegalLayout({
   index,
   title,
-  updated,
   children,
 }: {
   index: string
   title: string
-  updated: string
   children: ReactNode
 }) {
   return (
@@ -21,9 +19,6 @@ export function LegalLayout({
         <h1 className="mt-5 text-balance font-heading text-4xl font-bold uppercase leading-[0.95] tracking-tight text-foreground md:text-6xl">
           {title}
         </h1>
-        <p className="mt-5 font-mono text-xs uppercase tracking-[0.2em] text-muted-foreground">
-          Utolsó frissítés: {updated}
-        </p>
       </div>
       <div className="mx-auto w-full max-w-[820px] border-t border-border px-5 py-12 md:px-8">
         <div className="flex flex-col gap-10">{children}</div>

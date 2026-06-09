@@ -44,7 +44,7 @@ export function SiteHeader() {
       <div className="mx-auto flex h-16 w-full max-w-[1400px] items-center justify-between px-5 md:h-20 md:px-8">
         <Wordmark />
 
-        <nav className="hidden items-center gap-7 lg:flex">
+        <nav className="hidden items-center gap-5 lg:flex xl:gap-7">
           {navLinks.map((link) => {
             const active = pathname === link.href
             return (
@@ -87,9 +87,9 @@ export function SiteHeader() {
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
             transition={{ duration: 0.3 }}
-            className="fixed inset-0 z-40 bg-background lg:hidden"
+            className="fixed inset-0 z-40 overflow-y-auto bg-background lg:hidden"
           >
-            <div className="grain flex h-full flex-col justify-center px-6 pt-16">
+            <div className="grain flex min-h-full flex-col justify-center px-6 pb-12 pt-24">
               <nav className="flex flex-col">
                 {navLinks.map((link, i) => (
                   <motion.div
@@ -101,7 +101,7 @@ export function SiteHeader() {
                   >
                     <Link
                       href={link.href}
-                      className="flex items-baseline gap-4 py-4 font-heading text-3xl font-bold uppercase tracking-wide text-foreground transition-colors hover:text-primary"
+                      className="flex items-baseline gap-4 py-3.5 font-heading text-2xl font-bold uppercase tracking-wide text-foreground transition-colors hover:text-primary sm:py-4 sm:text-3xl"
                     >
                       <span className="font-mono text-xs text-primary">
                         0{i + 1}
