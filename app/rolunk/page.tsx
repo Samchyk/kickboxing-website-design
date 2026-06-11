@@ -8,7 +8,7 @@ import { Reveal } from '@/components/reveal'
 export const metadata: Metadata = {
   title: 'Rólunk és kapcsolat',
   description:
-    'Ismerd meg a küldetésünket, és lépj kapcsolatba velünk. A KICKBOX magazin a sport iránti szenvedélyről szól.',
+    'Ismerd meg a küldetésünket, és lépj kapcsolatba velünk. Hungarykikszbox magazin a sport iránti szenvedélyről szól.',
 }
 
 const values = [
@@ -38,7 +38,7 @@ export default function AboutPage() {
         eyebrow="Rólunk"
         title="A szenvedély"
         highlight="mögött"
-        lead="A KICKBOX egy független magazin, amely a küzdősport iránti tiszteletből született. Célunk, hogy a sportot mélyebben, hitelesebben mutassuk be."
+        lead="Hungarykikszbox egy független magazin, amely a küzdősport iránti tiszteletből született. Célunk, hogy a sportot mélyebben, hitelesebben mutassuk be."
       />
 
       <Section>

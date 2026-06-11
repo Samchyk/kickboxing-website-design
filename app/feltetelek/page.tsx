@@ -4,7 +4,7 @@ import { LegalLayout, LegalBlock } from '@/components/legal-layout'
 export const metadata: Metadata = {
   title: 'Felhasználási feltételek',
   description:
-    'A KICKBOX magazin használatára vonatkozó feltételek és jogi nyilatkozat.',
+    'Hungarykikszbox magazin használatára vonatkozó feltételek és jogi nyilatkozat.',
 }
 
 export default function TermsPage() {
@@ -13,7 +13,7 @@ export default function TermsPage() {
       <LegalBlock
         heading="A szolgáltatás célja"
         paragraphs={[
-          'A KICKBOX magazin tájékoztató és ismeretterjesztő céllal jött létre. A tartalmak nem helyettesítik a szakképzett edző vagy orvos személyes tanácsát.',
+          'Hungarykikszbox magazin tájékoztató és ismeretterjesztő céllal jött létre. A tartalmak nem helyettesítik a szakképzett edző vagy orvos személyes tanácsát.',
           'Az oldalon közölt edzés- és technikai leírások általános információk; végrehajtásuk minden esetben szakember felügyeletét igényli.',
         ]}
       />

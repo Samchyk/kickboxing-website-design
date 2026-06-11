@@ -13,7 +13,7 @@ export default function PrivacyPage() {
       <LegalBlock
         heading="Bevezetés"
         paragraphs={[
-          "A KICKBOX magazin elkötelezett a látogatók személyes adatainak védelme mellett. Jelen tájékoztató bemutatja, milyen adatokat gyűjtünk, és azokat hogyan használjuk fel.",
+          "Hungarykikszbox magazin elkötelezett a látogatók személyes adatainak védelme mellett. Jelen tájékoztató bemutatja, milyen adatokat gyűjtünk, és azokat hogyan használjuk fel.",
           "Az oldal használatával elfogadod a jelen tájékoztatóban foglaltakat. Az adatkezelés a hatályos európai és magyar adatvédelmi jogszabályoknak megfelelően történik.",
         ]}
       />
